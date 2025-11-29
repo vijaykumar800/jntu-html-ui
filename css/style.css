@@ -1,0 +1,91 @@
+/* HEADER SECTION */
+.site-header {
+    background-image: url('../img/ombre-blue-curve-light-blue-background-vector_53876-140344.avif');
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-title {
+    text-align: center;
+    color:black;
+}
+
+
+.logo-left,
+.logo-right {
+    height: 100px;
+}
+
+
+
+/* NAVIGATION BAR */
+.main-nav {
+    background-color: #0e4d90;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Menu Links */
+.nav-menu li {
+    position: relative;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    display: block;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+/* Dropdown Menu */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background-color: #083866;
+    list-style: none;
+    padding: 0;
+    min-width: 180px;
+}
+
+
+
+
+/* Dropdown Links */
+.submenu li a {
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+
+.nav-menu > li:hover > a {
+    background-color: #083866;
+}
+
+
+
+.submenu li a:hover {
+    background-color: #0e4d90;
+}
+
+
+
+/* Hover to Open */
+.menu-item:hover .submenu {
+    display: block;
+}
